@@ -25,6 +25,11 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #b72a64;
 }
 
 .container {
@@ -36,6 +41,19 @@ nav ul li a {
 .section-title {
     text-align: center;
     margin: 2rem 0;
+}
+
+#restaurantes {
+    background-color: #04a57d;
+    padding: 2rem 0;
+}
+
+#restaurantes .section-title {
+    color: white;
+}
+
+#restaurantes .column {
+    color: yellow;
 }
 
 .columns {
@@ -51,6 +69,7 @@ nav ul li a {
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
+    background-color: white;
 }
 
 .column img {
